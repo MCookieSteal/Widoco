@@ -35,9 +35,9 @@ Do you have a problem? open an issue at https://github.com/MCookieSteal/Widoco
 
 ## Ontology Diagram
 
-![Smart Tourism Ontology Diagram](tourism-diagram.svg)
+![Smart Tourism Ontology Diagram]([tourism-diagram.svg](https://raw.githubusercontent.com/MCookieSteal/Widoco/refs/heads/main/tourism-diagram.svg))
 
 <h2>Ontology Diagram</h2>
 <p align="center">
-  <img src="tourism-diagram.svg" alt="Smart Tourism Ontology Diagram" width="600px"/>
+  <img src="[tourism-diagram.svg](https://raw.githubusercontent.com/MCookieSteal/Widoco/refs/heads/main/tourism-diagram.svg)" alt="Smart Tourism Ontology Diagram" width="600px"/>
 </p>
