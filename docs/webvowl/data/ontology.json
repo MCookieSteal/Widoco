@@ -1,0 +1,643 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "title" : {
+      "undefined" : "Smart Tourism and Recommendations"
+    },
+    "iri" : "http://turism.com#",
+    "version" : "0.0.1",
+    "author" : [ "Jon Aldecoa-Otalora" ],
+    "description" : {
+      "undefined" : "The Tourism Ontology defines a structured semantic framework for representing key concepts, relationships, and rules within the domain of tourism. It enables intelligent reasoning and recommendation systems by modeling entities such as tourists, events, cities, and tourism types."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/2.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Jon Aldecoa-Otalora",
+        "type" : "label"
+      } ],
+      "createdWith" : [ {
+        "identifier" : "createdWith",
+        "language" : "undefined",
+        "value" : "https://chowlk.linkeddata.es/",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "en",
+        "value" : "April 24th, 2025",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "codeRepository" : [ {
+        "identifier" : "codeRepository",
+        "language" : "undefined",
+        "value" : "https://github.com/dgarijo/example",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Smart Tourism and Recommendations",
+        "type" : "label"
+      } ],
+      "introduction" : [ {
+        "identifier" : "introduction",
+        "language" : "en",
+        "value" : "The Smart Tourism and Recommendations Ontology is designed to formally describe and interconnect key concepts within the domain of intelligent tourism services. As tourism increasingly integrates digital technologies, there is a growing need for standardized vocabularies that support interoperability, semantic reasoning, and personalized recommendations for travelers. This ontology provides a structured representation of tourism-related entities such as tourists, destinations, activities, points of interest (POIs), and recommendation rules. It aims to facilitate the development of context-aware tourism platforms that adapt to user preferences, behaviors, and situational factors. By aligning with existing semantic web standards and promoting data reuse, this ontology supports the creation of intelligent systems capable of offering dynamic travel recommendations, enhancing user experiences, and enabling richer data integration across tourism applications. The ontology also includes support for representing user feedback, preferences, geolocation, temporal availability of services, and semantic relationships between tourism resources, thus enabling advanced reasoning capabilities. This documentation presents the main components of the ontology, including its classes, object and data properties, as well as examples of how it can be applied in smart tourism systems.",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://turism.com#hotelBusiness",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://turism.com#attractionBeach",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://turism.com#Bus",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://turism.com#restaurantJapanese",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://turism.com#Transport",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "subClasses" : [ "8", "4", "9", "10", "11" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://schema.org/Person",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "subClasses" : [ "13" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://turism.com#hotelLuxury",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://turism.com#Tourist",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "13",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://turism.com#eventCultural",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://turism.com#restaurantMediterranian",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "24",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://turism.com#eventTechnologic",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "26",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://turism.com#PublicBicycle",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "11",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://turism.com#eventMusic",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "27",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://turism.com#restaurantItalian",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "28",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://turism.com#restaurantMexican",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "29",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16"
+  }, {
+    "iri" : "http://schema.org/Hotel",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "subClasses" : [ "14", "0", "33", "34", "35" ],
+    "id" : "1",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://turism.com#attractionMuseum",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "36",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://turism.com#attractionMonument",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "37",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://turism.com#Tram",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "9",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://turism.com#restaurantAndalusian",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "46",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://turism.com#Metro",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "8",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://turism.com#hotelTuristic",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "33",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://turism.com#attractionCultural",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "50",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://turism.com#eventSports",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "52",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://turism.com#Taxi",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "10",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://turism.com#Attraction",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "subClasses" : [ "36", "2", "37", "50", "56" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://turism.com#eventGastronomic",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "58",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://schema.org/City",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "id" : "18",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://schema.org/Place",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "subClasses" : [ "1", "18" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://schema.org/Event",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "subClasses" : [ "52", "20", "58", "26", "27" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://schema.org/Restaurant",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "subClasses" : [ "28", "29", "6", "24", "46" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://turism.com#attractionPark",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "56",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://turism.com#hotelRural",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "34",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://turism.com#hotelBeach",
+    "baseIri" : "http://turism.com",
+    "instances" : 0,
+    "id" : "35",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://schema.org/givenName",
+    "baseIri" : "http://schema.org",
+    "range" : "16",
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://turism.com#cityHasRestaurant",
+    "inverse" : "19",
+    "baseIri" : "http://turism.com",
+    "range" : "7",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://turism.com#eventInCity",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://turism.com#touristEventRecommendation",
+    "baseIri" : "http://turism.com",
+    "range" : "21",
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://turism.com#locatedInCity",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://turism.com#cityHasTransport",
+    "inverse" : "39",
+    "baseIri" : "http://turism.com",
+    "range" : "5",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "range" : "10",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "9",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "11",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "10",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://turism.com#cityHasHotel",
+    "inverse" : "25",
+    "baseIri" : "http://turism.com",
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://turism.com#attractionInCity",
+    "inverse" : "55",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://turism.com#transportServiceInCity",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://schema.org/familyName",
+    "baseIri" : "http://schema.org",
+    "range" : "30",
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://turism.com#restaurantInCity",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://turism.com#denegatedEvent",
+    "baseIri" : "http://turism.com",
+    "range" : "21",
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://turism.com#cityHasEvent",
+    "inverse" : "22",
+    "baseIri" : "http://turism.com",
+    "range" : "21",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://turism.com#touristAttractionRecommendation",
+    "baseIri" : "http://turism.com",
+    "range" : "21",
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://turism.com#touristIsInCity",
+    "baseIri" : "http://turism.com",
+    "range" : "18",
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://turism.com#cityHasAttraction",
+    "baseIri" : "http://turism.com",
+    "range" : "3",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  } ]
+}
