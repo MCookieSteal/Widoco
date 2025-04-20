@@ -13,14 +13,16 @@
 @prefix widoco: <https://w3id.org/widoco/vocab#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix schema1: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @base <http://www.semanticweb.org/owl/owlapi/turtle#> .
 
 <http://turism.com#> rdf:type owl:Ontology ;
                       owl:versionIRI <https://mcookiesteal.github.io/Widoco/ontology.ttl> ;
                       dcterms:issued "2025-04-24"^^xsd:date ;
-                      foaf:logo <https://github.com/MCookieSteal/Widoco/blob/main/logo.png> ;
+                      foaf:logo <https://raw.githubusercontent.com/MCookieSteal/Widoco/main/logo.png> ;
                       dcterms:citation "A formal description of the Smart Tourism and Recommendations Ontology" ;
-                      mod:status "draft" ;
+                      adms:status "UnderDevelopment" ;
+                      bibo:doi "10.1234/turism-ontology.2025" ;
                       dcterms:source <https://es.wikipedia.org/wiki/Turismo> ;
                       dcterms:contributor "Jon Aldecoa-Otalora" ;
                       dc:documentation <https://mcookiesteal.github.io/Widoco/index-en.html> ;
