@@ -16,7 +16,7 @@
 @base <http://www.semanticweb.org/owl/owlapi/turtle#> .
 
 <http://turism.com#> rdf:type owl:Ontology ;
-                      owl:versionIRI <http://turism.com#0.0.1> ;
+                      owl:versionIRI <https://mcookiesteal.github.io/Widoco/ontology.ttl> ;
                       dcterms:issued "2025-04-24"^^xsd:date ;
                       dcterms:citation "A formal description of the Smart Tourism and Recommendations Ontology" ;
                       dcterms:contributor "Jon Aldecoa-Otalora" ;
