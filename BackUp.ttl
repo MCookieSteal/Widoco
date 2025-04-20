@@ -18,7 +18,10 @@
 <http://turism.com#> rdf:type owl:Ontology ;
                       owl:versionIRI <https://mcookiesteal.github.io/Widoco/ontology.ttl> ;
                       dcterms:issued "2025-04-24"^^xsd:date ;
+                      foaf:logo <https://mcookiesteal.github.io/Widoco/logo.png> ;
                       dcterms:citation "A formal description of the Smart Tourism and Recommendations Ontology" ;
+                      voaf:status "draft" ;
+                      dcterms:source <https://es.wikipedia.org/wiki/Turismo> ;
                       dcterms:contributor "Jon Aldecoa-Otalora" ;
                       dc:documentation <https://mcookiesteal.github.io/Widoco/index-en.html> ;
                       dcterms:publisher "Jon Aldecoa-Otalora" ;
