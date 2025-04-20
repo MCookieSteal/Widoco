@@ -8,6 +8,7 @@
 
 <http://turism.com#> rdf:type owl:Ontology ;
                       owl:versionIRI <http://turism.com#0.0.1> ;
+                      vann:preferredNamespaceUri "http://turism.com#" ;
                       <http://purl.org/dc/elements/1.1/creator> "Jon Aldecoa-Otalora" ;
                       <http://purl.org/dc/elements/1.1/description> "The Tourism Ontology defines a structured semantic framework for representing key concepts, relationships, and rules within the domain of tourism. It enables intelligent reasoning and recommendation systems by modeling entities such as tourists, events, cities, and tourism types." ;
                       <http://purl.org/dc/elements/1.1/title> "Smart Tourism and Recommendations" ;
