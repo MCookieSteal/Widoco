@@ -23,6 +23,8 @@
                       dc:documentation <https://mcookiesteal.github.io/Widoco/index-en.html> ;
                       dcterms:publisher "Jon Aldecoa-Otalora" ;
                       vann:preferredNamespaceUri "http://turism.com/ontology#" ;
+                      vann:preferredNamespacePrefix "turism" ;
+                      dcterms:bibliographicCitation "Aldecoa-Otalora, Jon. Smart Tourism and Recommendations Ontology. 2025. Available at: https://github.com/MCookieSteal/Widoco" ;
                       dc:creator "Jon Aldecoa-Otalora" ;
                       dc:description "The Tourism Ontology defines a structured semantic framework for representing key concepts, relationships, and rules within the domain of tourism. It enables intelligent reasoning and recommendation systems by modeling entities such as tourists, events, cities, and tourism types." ;
                       dc:title "Smart Tourism and Recommendations" ;
