@@ -17,6 +17,7 @@
 
 <http://turism.com#> rdf:type owl:Ontology ;
 					  owl:versionIRI <http://turism.com/0.0.1> ;
+					  vann:preferredNamespacePrefix "turism" ;
 					  dcterms:created "April 24th, 2025"@en ;
 					  dc:description "The Tourism Ontology defines a structured semantic framework for representing key concepts, relationships, and rules within the domain of tourism. It enables intelligent reasoning and recommendation systems by modeling entities such as tourists, events, cities, and tourism types." ;
                       dc:creator "Jon Aldecoa-Otalora" ;
