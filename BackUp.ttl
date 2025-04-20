@@ -20,7 +20,7 @@
                       dcterms:issued "2025-04-24"^^xsd:date ;
                       foaf:logo <https://github.com/MCookieSteal/Widoco/blob/main/logo.png> ;
                       dcterms:citation "A formal description of the Smart Tourism and Recommendations Ontology" ;
-                      voaf:status "draft" ;
+                      mod:status "draft" ;
                       dcterms:source <https://es.wikipedia.org/wiki/Turismo> ;
                       dcterms:contributor "Jon Aldecoa-Otalora" ;
                       dc:documentation <https://mcookiesteal.github.io/Widoco/index-en.html> ;
