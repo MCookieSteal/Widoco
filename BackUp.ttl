@@ -18,15 +18,20 @@
 <http://turism.com#> rdf:type owl:Ontology ;
 					  owl:versionIRI <http://turism.com/0.0.1> ;
 					  vann:preferredNamespacePrefix "turism" ;
-					  dcterms:created "April 24th, 2025"@en ;
+					  dcterms:issued "2025-04-24"^^xsd:date ;
+					  adms:status "experimental" ;
+					  foaf:logo <https://w3id.org/turism/logo.png> ;
+					  dcterms:publisher "UOC Prueba" ;
+					  dc:bibliographicCitation "Aldecoa-Otalora, Jon. (2025). Smart Tourism and Recommendations Ontology, version 0.0.1. http://turism.com/ontology" ;
+					  dcterms:created "2025-04-24"^^xsd:date ;
 					  dc:description "The Tourism Ontology defines a structured semantic framework for representing key concepts, relationships, and rules within the domain of tourism. It enables intelligent reasoning and recommendation systems by modeling entities such as tourists, events, cities, and tourism types." ;
-                      dc:creator "Jon Aldecoa-Otalora" ;
-                      dc:title "Smart Tourism and Recommendations" ;
-                      owl:versionInfo "0.0.1" ;
+                      			  dc:creator "Jon Aldecoa-Otalora" ;
+                      			  dc:title "Smart Tourism and Recommendations" ;
+                      			  owl:versionInfo "0.0.1" ;
 					  dcterms:license <http://creativecommons.org/licenses/by/2.0/> ;
 					  schema:codeRepository "https://github.com/dgarijo/example"^^xsd:anyURI ;
 					  widoco:introduction "The Smart Tourism and Recommendations Ontology is designed to formally describe and interconnect key concepts within the domain of intelligent tourism services. As tourism increasingly integrates digital technologies, there is a growing need for standardized vocabularies that support interoperability, semantic reasoning, and personalized recommendations for travelers. This ontology provides a structured representation of tourism-related entities such as tourists, destinations, activities, points of interest (POIs), and recommendation rules. It aims to facilitate the development of context-aware tourism platforms that adapt to user preferences, behaviors, and situational factors. By aligning with existing semantic web standards and promoting data reuse, this ontology supports the creation of intelligent systems capable of offering dynamic travel recommendations, enhancing user experiences, and enabling richer data integration across tourism applications. The ontology also includes support for representing user feedback, preferences, geolocation, temporal availability of services, and semantic relationships between tourism resources, thus enabling advanced reasoning capabilities. This documentation presents the main components of the ontology, including its classes, object and data properties, as well as examples of how it can be applied in smart tourism systems."@en ;
-                      mod:createdWith <https://chowlk.linkeddata.es/> .
+                      			  mod:createdWith <https://chowlk.linkeddata.es/> .
 
 #################################################################
 #    Annotation properties
